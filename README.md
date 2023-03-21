@@ -6,6 +6,8 @@ Core Loss: Unsupervised Anomaly Detection under Data Pollution
 
 A plug-and-play replacement for MSE loss!
 
+Use case is shown in Script_coreloss.py.
+
 the code is published and if you're intrested in this work, please cite it!
 
 @article{shang2023core,
