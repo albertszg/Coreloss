@@ -24,6 +24,7 @@ class AdaWeightedLoss(nn.Module):
         #moving average mode----EMA is waiting for implemented!
         self.MA='MA'
         self.alpha=0.1 #ratio for moving average
+
     def forward(self, input, target, global_step):
         """
         args:
@@ -69,12 +70,6 @@ class AdaWeightedLoss(nn.Module):
             else:
                 raise KeyError('Decay function must be one of [\'exp\',\'log\',\'linear\',\'nlog\',\'quadratic\']')
 
-            # if global_step%100==0:
-            #     if torch.is_tensor(label) == 1:
-            #         logging.info(w1)
-                # logging.info(label)
-                # logging.info('mean of w1: {}  '.format(torch.mean(w1)))
-                # logging.info('global step: {}, step_coeff: {}'.format(global_step,step_coeff))
             if not self.direct:
                 w = (1.0 + (step_coeff - 1.0) * w1) / step_coeff
             else:
