@@ -4,11 +4,11 @@ Core Loss：污染数据下基于Autoencoder的无监督异常检测损失。
 
 Core Loss: Unsupervised Anomaly Detection under Data Pollution
 
-A plug-and-play replacement for MSE loss!
+# A plug-and-play replacement for MSE loss!
 
 Use case is shown in Script_coreloss.py. Can runing on the environment with pytorch 1.9
 
-the code is published and if you're intrested in this work, please cite it!
+# If you're intrested in this work, please cite it!
 
 @article{shang2023core,
   title={Core loss: Mining core samples efficiently for robust machine anomaly detection against data pollution},
