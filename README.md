@@ -6,7 +6,7 @@ Core Loss: Unsupervised Anomaly Detection under Data Pollution
 
 A plug-and-play replacement for MSE loss!
 
-Use case is shown in Script_coreloss.py.
+Use case is shown in Script_coreloss.py. Can runing on the environment with pytorch 1.9
 
 the code is published and if you're intrested in this work, please cite it!
 
@@ -21,6 +21,8 @@ the code is published and if you're intrested in this work, please cite it!
 }
 
 Shang Z, Zhao Z, Yan R, et al. Core loss: Mining core samples efficiently for robust machine anomaly detection against data pollution[J]. Mechanical Systems and Signal Processing, 2023, 189: 110046.
+
+
 
 
 
