@@ -9,7 +9,7 @@ Core Loss: Unsupervised Anomaly Detection under Data Pollution
 Use case is shown in Script_coreloss.py. Can runing on the environment with pytorch 1.9
 
 # If you're intrested in this work, please cite it!
-
+```
 @article{shang2023core,
   title={Core loss: Mining core samples efficiently for robust machine anomaly detection against data pollution},
   author={Shang, Zuogang and Zhao, Zhibin and Yan, Ruqiang and Chen, Xuefeng},
@@ -19,8 +19,9 @@ Use case is shown in Script_coreloss.py. Can runing on the environment with pyto
   year={2023},
   publisher={Elsevier}
 }
+```
 
-Shang Z, Zhao Z, Yan R, et al. Core loss: Mining core samples efficiently for robust machine anomaly detection against data pollution[J]. Mechanical Systems and Signal Processing, 2023, 189: 110046.
+
 
 
 
